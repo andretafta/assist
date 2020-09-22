@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
     
     
-    <title>Hello, Andre!</title>
+    <title>Hello, Bapak Zafran!</title>
   </head>
   <body>
   <!-- Navbar -->
@@ -68,12 +68,11 @@
             </nav>
 
         <!-- Search Nama -->
-            <form class="form-inline my-2 my-lg-0" action="<?$_SERVER['PHP_SELF']?>" method="POST" name="search" id="search">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <a href="searchdb.php" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</a>
-                <?php include "searchdb.php"?> 
-            </form>
-              
+        <div class="content">
+        <input type="text" class="search" id="searchid" placeholder="Search for people" />
+        <div id="result"></div>
+        </div>
+
 
             <!-- Card -->
             <div class="row">
@@ -125,6 +124,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
     <script type="text/javascript" src="admin.js"></script>
   </body>
 </html>

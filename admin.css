@@ -60,3 +60,26 @@ table .id {
 
     size: 100%;
 }
+
+ul.listSearch {
+    padding-left: 0 !important;
+}
+.listSearch li{
+    background-color: #0988A9;
+    padding: 10px;
+    margin: 5px 0;
+    list-style: none;
+    color: #DAD9DE;
+}
+.listSearch li:hover {
+    background-color: #DAD9DE;
+    color: #0988A9;
+}
+
+a:hover {
+ 
+   cursor: pointer;
+ 
+   background-color: yellow;
+ 
+}
