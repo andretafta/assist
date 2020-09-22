@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+.nav-link {
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+}
+
+.nav-link:hover{
+  opacity: 0.75;
+  
+}
+
+.card{
+    width: 18rem;
+    height: 10rem;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 1);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.checkbtn{
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+#checkbox{
+    display: none; 
+}
+
+.wrapper{
+    width: 650px;
+    margin: 0 auto;
+}
+.page-header h2{
+    margin-top: 0;
+}
+table tr td:last-child a{
+    margin-right: 0px;
+}
+
+table thead {
+    text-align: center;
+}
+
+table .icon {
+    text-align: center;
+}
+
+table .id {
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.canvas{
+
+    size: 100%;
+}
