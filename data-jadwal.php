@@ -42,10 +42,10 @@
         </nav>
     </div>
     <!-- Grid Layout -->
-    <div class="row no-gutters mt-5">
+    <div class="row no-gutters mt-5"  style="height:100%;">
 
         <!-- SideBar -->
-        <div class="col-md-2 bg-dark mt-3 pr-3 pt-4">
+        <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
             <div class="navigation">
                 <ul class="nav flex-column ml-3 mb-5">
                     <li class="nav-item">

@@ -46,10 +46,10 @@ include 'create.php';
         </nav>
     </div>
     <!-- Grid Layout -->
-    <div class="row no-gutters mt-5">
+    <div class="row no-gutters mt-5" style="height:100%;">
 
         <!-- SideBar -->
-        <div class="col-md-2 bg-dark mt-3 pr-3 pt-4">
+        <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
             <div class="navigation">
                 <ul class="nav flex-column ml-3 mb-5">
                     <li class="nav-item">
@@ -133,7 +133,7 @@ include 'create.php';
             </div>
         </div>
     </div>
-<?php include  "modal-delete.php"; ?>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

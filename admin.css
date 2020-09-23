@@ -61,25 +61,22 @@ table .id {
     size: 100%;
 }
 
-ul.listSearch {
-    padding-left: 0 !important;
-}
-.listSearch li{
-    background-color: #0988A9;
-    padding: 10px;
-    margin: 5px 0;
-    list-style: none;
-    color: #DAD9DE;
-}
-.listSearch li:hover {
-    background-color: #DAD9DE;
-    color: #0988A9;
+#namaList{
+    position: relative;
 }
 
-a:hover {
- 
-   cursor: pointer;
- 
-   background-color: yellow;
- 
+#namaList ul{
+    background-color:#eee;
+    cursor:pointer;
+    position: absolute;
+    z-index: 1000;
+    width: 95%;
+}
+#namaList li{
+    padding:12px;
+    border:thin solid #F0F8FF;
+}
+
+#namaList li:hover{
+    background-color:#1b85ff;
 }

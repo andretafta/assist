@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="admin.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/mdb.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
     
     <title>Hello, Bapak Zafran!</title>
   </head>
@@ -39,10 +39,10 @@
         </nav>
     </div>
     <!-- Grid Layout -->
-    <div class="row no-gutters mt-5">
+    <div class="row no-gutters mt-5"  style="height:100%;">
 
         <!-- SideBar -->
-        <div class="col-md-2 bg-dark mt-3 pr-3 pt-4">
+        <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
             <div class="navigation">
                 <ul class="nav flex-column ml-3 mb-5">
                     <li class="nav-item">
@@ -68,11 +68,20 @@
             </nav>
 
         <!-- Search Nama -->
-        <div class="content">
-        <input type="text" class="search" id="searchid" placeholder="Search for people" />
-        <div id="result"></div>
+        
+        <div class="container">
+         <div class="row">
+         <div class="col-sm-12 mt-3 mr-3 ml-3">
+          <h6>Record Detection :</h6>  
+          <form class="form-inline my-2 my-lg-0">
+              <input type="text" name="namakaryawan" id="namakaryawan" class="form-control" placeholder="Masukkan Nama Karyawan" style="width: 950px;" />
+              <button class="btn btn-outline-success ml-4" type="submit">Save</button>  
+          </form>
+          <div id="namaList"></div>
         </div>
-
+    
+    </div>
+    </div>
 
             <!-- Card -->
             <div class="row">
@@ -115,16 +124,18 @@
 
             </div>
         </div>
-
+        
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
     <script type="text/javascript" src="admin.js"></script>
+    <script type="text/javascript" src="searchname.js"></script>
+
   </body>
+
 </html>
