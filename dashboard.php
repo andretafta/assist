@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/mdb.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sensor.js"></script>
  
     
     <title>Hello, Bapak Zafran!</title>
@@ -97,7 +98,7 @@
                     <div class="card">
                     <h5 class="card-header text-center bg-dark text-white">Rate Heart (BPM)</h5>
                         <div class="card-body">
-                        <h2 class="card-title d-flex justify-content-center text-primary mt-2">80</h2>
+                        <h2 class="card-title d-flex justify-content-center text-primary mt-2"><span id="rate_heart"></span></h2>
                         </div>
                     </div>
                 </div>
